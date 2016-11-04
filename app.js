@@ -3,6 +3,6 @@
     .controller('HomeCtrl', [function () {
         var hc = this;
         hc.greeting = "Hide-Element Example";
-        hc.hideIt = false;
+        hc.hideAndShow = false;
     }]);
 })();
