@@ -11,6 +11,9 @@
     <p hide-element hide-max="800">This is show after 800</p>
     <p hide-element hide-min="800" hide-max="1200">This is show below 800 and over 1200</p>
     <p hide-element hide-min="1200" hide-max="800">This is show between 800 and 1200</p>
+    <hr />
+    <p><button ng-click="hc.hideAndShow = !hc.hideAndShow">Hide and Show</button></p>
+    <p hide-element is-hidden="hc.hideAndShow">This will be hidden and shown by the button click!</p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="angular-hide-element.js"></script>
