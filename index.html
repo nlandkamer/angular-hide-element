@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html ng-app="MainApp">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="HomeCtrl as hc">
+    <h1>{{hc.greeting}}</h1>
+
+    <p hide-element hide-min="800">This is show below 800</p>
+    <p hide-element hide-max="800">This is show after 800</p>
+    <p hide-element hide-min="800" hide-max="1200">This is show below 800 and over 1200</p>
+    <p hide-element hide-min="1200" hide-max="800">This is show between 800 and 1200</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="angular-hide-element.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
