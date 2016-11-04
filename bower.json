@@ -1,0 +1,12 @@
+{
+  "name": "angular-hide-element",
+  "version": "1.0.0",
+  "main": "angular-hide-element.js",
+  "ignore": [
+    "app.js",
+    "index.html"
+  ],
+  "dependencies": {
+    "angular": ">=1.5.7"
+  }
+}
